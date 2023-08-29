@@ -17947,7 +17947,7 @@ body[data-fancy-form-rcs="1"] .fancy-select-wrap label{
 }
 body[data-fancy-form-rcs="1"] .select2-container--default .select2-selection--single .select2-selection__rendered, 
 body[data-fancy-form-rcs="1"] .select2-container--default .select2-results__option--highlighted[aria-selected] {
-  color: #444!important;
+  color: orange!important;
 }
 body[data-fancy-form-rcs="1"] .select2-container--default:hover .select2-selection--single .select2-selection__rendered, 
 body[data-fancy-form-rcs="1"] .select2-container--default.select2-container--open .select2-selection--single .select2-selection__rendered,
