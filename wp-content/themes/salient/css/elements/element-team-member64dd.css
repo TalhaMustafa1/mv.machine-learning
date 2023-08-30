@@ -168,7 +168,7 @@ Description: Styles for the "Team Member" page builder element.
 }
 .team-member[data-style="bio_fullscreen"] .team-meta{
    padding-left:25px;
-    margin-bottom:25px;
+    margin-bottom:2px;
     left:0;
     bottom:0;
     text-align:left
