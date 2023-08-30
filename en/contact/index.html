@@ -240,6 +240,23 @@
 		.asl_m input[type=search]::placeholder {
 			font-family: "Montserrat" !important;
 		}
+		.icon-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .icon {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: orange;
+      margin: 10px 0;
+      text-decoration: none;
+    }
 
 		.asl_m input[type=search]::-webkit-input-placeholder {
 			font-family: "Montserrat" !important;
@@ -609,7 +626,7 @@
 	</script>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162753026-1"></script>
+	
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag() { dataLayer.push(arguments); }
@@ -864,10 +881,19 @@
 												<div style="height: 20px;" class="divider"></div>
 											</div>
 
-											<div class="elfsight-widget-social-icons elfsight-widget"
-												data-elfsight-social-icons-options="%7B%22items%22%3A%5B%7B%22url%22%3A%22https%3A%5C%2F%5C%2Fwww.linkedin.com%5C%2Fcompany%5C%2Frockingdata%5C%2F%22%2C%22type%22%3A%22linkedin%22%2C%22iconUrl%22%3A%22%22%7D%2C%7B%22type%22%3A%22youtube%22%2C%22url%22%3A%22https%3A%5C%2F%5C%2Fwww.youtube.com%5C%2Fc%5C%2Frockingdata%22%2C%22iconUrl%22%3A%22%22%7D%2C%7B%22type%22%3A%22instagram%22%2C%22url%22%3A%22https%3A%5C%2F%5C%2Fwww.instagram.com%5C%2Frockingdata%5C%2F%22%2C%22iconUrl%22%3A%22%22%7D%2C%7B%22type%22%3A%22twitter%22%2C%22url%22%3A%22https%3A%5C%2F%5C%2Ftwitter.com%5C%2Frockingdata%22%2C%22iconUrl%22%3A%22%22%7D%2C%7B%22type%22%3A%22facebook%22%2C%22url%22%3A%22https%3A%5C%2F%5C%2Fwww.facebook.com%5C%2FRockingData%22%2C%22iconUrl%22%3A%22%22%7D%5D%2C%22size%22%3A%2232%22%2C%22location%22%3A%22floating%22%2C%22position%22%3A%22left%22%2C%22style%22%3A%22default%22%2C%22iconColor%22%3A%22white%22%2C%22bgColor%22%3A%22black%22%2C%22iconColorOnHover%22%3A%22white%22%2C%22bgColorOnHover%22%3A%22native%22%2C%22borderRadius%22%3A%22circle%22%2C%22animation%22%3A%22bounce%22%2C%22transparency%22%3A100%2C%22transparencyOnHover%22%3A100%2C%22widgetId%22%3A%222%22%7D"
-												data-elfsight-social-icons-version="1.6.1"
-												data-elfsight-widget-id="elfsight-social-icons-2">
+											<div style="position: fixed; top: 30%;left: 1%;" class="icon-container">
+												<a class="icon" href="https://www.instagram.com">
+													<i class="fab fa-instagram" style="color:white; font-size: 20px; font-weight: normal;"></i>
+												  </a>
+												  <a class="icon" href="https://www.linkedin.com">
+													<i class="fab fa-linkedin" style="color:white; font-size: 20px; font-weight: normal;"></i>
+												  </a>
+												  <a class="icon" href="https://www.facebook.com">
+													<i class="fab fa-facebook" style="color:white; font-size: 20px; font-weight: normal;"></i>
+												  </a>
+												  <a class="icon" href="https://www.youtube.com">
+													<i class="fab fa-youtube" style="color:white; font-size: 20px; font-weight: normal;"></i>
+												  </a>
 											</div>
 
 										</div>

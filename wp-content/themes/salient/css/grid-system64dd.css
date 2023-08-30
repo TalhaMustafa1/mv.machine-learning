@@ -2013,7 +2013,7 @@ body.compose-mode .wpb_row.vc_row-flex>.fp-tableCell .fp-scrollable > .fp-scroll
   
   .wpb_column:not([class*="vc_col-xs"]) {
     width: 100%;
-    margin-bottom: 0px;
+    margin-bottom: 12px;
   }
   
   body .vc_row-fluid .vc_col-sm-2:not([class*="vc_col-xs"]),

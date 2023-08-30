@@ -1664,7 +1664,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		#header-secondary-outer nav > ul > .current-menu-ancestor > a, 
 		#header-secondary-outer nav > ul > .current-menu-ancestor > a .sf-sub-indicator i, 
 		#header-secondary-outer nav > ul > li:hover > a .sf-sub-indicator i { 
-			color:#222222!important; 
+			color:white!important; 
 		}
 			 #search-outer .ui-widget-content, 
 			 body:not([data-header-format="left-header"]) #top .sf-menu li ul, 
@@ -1681,7 +1681,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		#slide-out-widget-area-bg.fullscreen, 
 		#slide-out-widget-area-bg.fullscreen-alt .bg-inner, 
 		body.material #slide-out-widget-area-bg.slide-out-from-right { 
-			background-color:#eeff00; 
+			background-color: #033899!important; 
 		}
 		#slide-out-widget-area, 
 		body.material #slide-out-widget-area.slide-out-from-right .off-canvas-social-links a:hover i:before, 
@@ -1691,7 +1691,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
     #slide-out-widget-area.fullscreen .menuwrapper li a,
 		body #slide-out-widget-area.slide-out-from-right-hover .inner .off-canvas-menu-container li a,
 		body #slide-out-widget-area .slide_out_area_close .icon-default-style[class^="icon-"] { 
-			color:#0a0a0a; 
+			color:white; 
 		}
 		#slide-out-widget-area .tagcloud a, 
 		body.material #slide-out-widget-area[class*="slide-out-from-right"] .off-canvas-menu-container li a:after { 
